@@ -1,0 +1,38 @@
+결합도, 응집도 
+순서를 기억하기위한것보다, 해당되는 예제를 들수 있으면 쉽게 떠올릴듯.
+결합도(Coupling)
+Data ->
+Stamp ->
+Control ->
+Extern ->
+Common ->
+Content
+
+Data coupling : 자료요소, Call by value
+Stamp coupling
+Control coupling : 제어 변수
+Extern coupling : 외부 변수
+Common coupling : 다른 모듈의 내부자료참조, Call By Reference
+Content coupling : 내부기능,내부자료같이참조
+
+응집도(Cohesion)
+Coincidental ->
+Logical ->
+Temporal ->
+Procedure ->
+Communication ->
+Sequential ->
+Functional
+
+Coincidental cohesion : 우연적
+Logical cohesion : 논리적
+Temporal cohesion : 시간적
+Procedure cohesion : 순차적 수행
+Communication cohesion : 작업 대상(db)
+Sequential cohesion : 모듈내에서 활동의 출려값을 다른활동의 입력값으로 사용
+Functional cohesion : 하나의 단일기능(printf),라이브러리
+
+
+이상현상 ( Anomaly)
+
+디비전 연산에 프로젝션이 들어간다는것을 기억.
