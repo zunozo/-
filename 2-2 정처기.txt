@@ -1,0 +1,21 @@
+인터페이스 설계
+
+인터페이스 기술의 표준
+
+EAI
+기업에서 운영되는 서로 다른 플랫폼 및 응용 프로그램 간의 정보 전달, 연계, 통합 을 가능하게 해주는 솔루션.
+EAI를 사용함으로써 각 비즈니스 간 통합 및 연계성을 증대시켜 효율성을 높여 줄 수 있으며 각 시스템 간의 확장성을 높여 줄 수 있음.
+PTP(미들웨어를 두지않고 POINT TO POINT)
+HUB & SPOKE(단일 허브)
+Message Bus(미들웨어(버스))
+Hybrid(그룹 내 : HUB & SPOKE, 그룹간 : Message bus, 필요한경우 한가지방식으로 EAI 구현 가능)
+ESB(Enterprise Service Bus)(특정 벤더 종속)
+EAI/ESB(트리거를 Java)
+
+인터페이스 구현 검증 도구
+xunit : 다양한 언어를 지원하는 단위테스트프레임워크
+STAF : 테스트 대상 분산 환경에 데몬을 사용
+FitNesse : 웹 기반 테스트
+NTAF : STAF+FitNesse (naver)
+Selenium : 웹 어플리케이션 테스트
+watir : Ruby
