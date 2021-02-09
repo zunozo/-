@@ -1,0 +1,30 @@
+UNIX의 기본 구성
+Kernel, Shell, Utility
+커널 : 핵심 루틴으로, 하드웨어 보호기능, 사용자 서비스 제공, 프로세스 관리 , 메모리 관리, 네트워크 관리, 입출력 관리, 파일 관리 기능 등을 제공함.
+쉘 : 사용자 명령의 입력을 받아 시스템 기능을 수행하는 명령 해석기로 사용자와 시스템 간의 이너텦이스를 담당함. 즉, 사용자와 커널 사이에서 중계자 역할을 함.
+유틸리티 : 문서 편집기, 데이터베이스 관리, 컴파일러, 네트워크 기능등을 제공한다.
+
+쉘 스크립트
+쉘 스크립트는 운영체제의 제어 프로그램을 통제할 수 있는 인터프리터 방식의 프로그램.
+쉘 스크립트를 사용하면 여러 제어 명령어를 자동으로 연속 실행시킬 수 잇음.
+쉘 스크립트는 일반 사용자보다는 시스템 관리자, 루트 권한 사용자에 의해 Unix/Linux운영체제의 다양한 제어 방식이나 권한을 통제하는 데 사용된다.
+sh(Bourne Shell)
+sh 파일은 루트 사용자가 실행할 수 있는 모든 쉘 스크립트를 수행할 수 있도록 하는 파일.(파일위치 /bin/sh이나, /bin/bash).
+sh는 가장 기본이 되는 UNIX 쉘로 다양한 쉘 스크립트를 해석하여 실행해 주는 명령어.
+공격자에 집중 공격 대상이 되는 파일이며, 이 파일이 공격자에 의해 실행이 된다면 공격자는 운영체제 시스템을 자신의 것으로 만들 수 있음.
+bash 는 Bourne-again shell을 줄여서 사용하는 용어. sh가 새롭게 닷디 태어났다는 말로 sh의 업그레이드 버전
+bash 쉘 스크립트는 C언어 기반.
+
+스케줄링 정책
+선점형
+RR(Round Robin), SRT(Shortest Remaining Time), MFQ(Multi level Feedback Queue)
+비선점형
+FIFO(First In First Out), SJF(Shortest Job First), HRN(High Response-ratio Next), 우선순위
+
+교착상태가 발생할 필요충분 4가지
+상호배제(Mutual Exclusion)
+비선점(Non Preemption)
+환형 대기(Circular Wait, 순환대기)
+점유와 대기(Hold and Wait)
+교착상태를 인정하되, 가능한 피해가는 쪽으로 운영
+교착상태 회피 : Banker's Algorithm
