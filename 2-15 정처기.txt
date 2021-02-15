@@ -1,0 +1,7 @@
+자주사용하는 페이지들의 집합 : Working Set
+을 이용해서 스레싱을 방지한다.
+스레싱 : 페이지를 바꾸는 작업이 계속 일어나는것 ex)배구경기에서 배구선수를 계속바꾸면 경기를못하게됨.
+
+분산 시스템
+약결합(Loosely coupled) : Multiple computer : 소켓
+강결합 : Multi processor : 공유메모리
