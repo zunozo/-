@@ -1,0 +1,90 @@
+GOF(Gang of Four)의 디자인 패턴
+생성, 구조, 행위
+생성 : 객체를 생성
+Abstract Factory, Factory Method, Builder, Prototype
+구조 : 여러개의 객체를 모아 구조화
+Adapter, Bridge, Decorator
+행위 : 객체의 구체적인 알고리즘
+Iterator, Vistior
+
+객체지향 분석 방법론
+Booch : 미시적,거시적
+Coad와 Yourdon : E-R다이어그램
+
+자료사전
+** : 주석
+
+DBMS 분석 시 고려사항
+가용성, 성능, 기술지원, 상호 호환성, 구축비용
+
+HIPO
+하향식
+
+럼바우의 객체지향 분석 절차
+Object -> Dynamic -> Functional
+
+DFD구성요소
+process(동그라미), dataflow(화살표), data store(직선), terminal(네모)
+
+ORB(Object Request Broker) : 분산 컴퓨팅 환경에서 미들웨어 소프트웨어의 한 단면으로 프록래머에게 다른 컴퓨터의 프로그램을 네트워크를 통해 호출할 수 있는 미들웨어.
+
+요구사항 과정
+도출 -> 분석 -> 명세 -> 확인
+
+UML 다이어그램
+행위다이어그램(동적구조)
+유상활동상타시
+
+소프트웨어 품질 측정을 위해 개발자 관점에서 고려해야 할 항목
+간결성 X(오답으로 많이나옴)
+
+UNIX
+Kernel : 핵심 루틴으로, 하드웨어 보호 기능, 사용자 서비스 제공, 프로세스 관리, 메모리 관리, 네트워크관리, 입출력 관리, 파일 관리 기능 등을 제공한다.
+Shell : 컴퓨터 내부를 관리하는 Kernel과 사용자 간을 연결하는 Command 창이다. 사용자 요청에 기반을 둔 명령어를 작성, 여러 shell이있음.
+
+TCP/IP 프로토콜 중 전송계층 프로토콜
+TCP,UDP
+종단 간 신뢰성 있고 효율적인 데이터를 전송하기 위해 오류검출과 복구, 흐름제어를 수행하는 계층.
+
+모듈사이의 결합도
+결합도 : 모듈간의 관련선 정도.
+Data Coupling -> Stamp Coupling -> Control Coupling -> Extern Coupling -> Common Coupling -> Content Coupling
+
+응집도 : 모듈 내부에서 구성요소 간에 밀접한 관계를 맺고 있는 정도
+Coincidental Cohesion -> Logical Cohesion -> Temporal Cohesion -> Procedure Cohesion -> Communication Cohesion -> Sequential Cohesion -> Functional Cohesion 
+
+Thread
+한개의 프로세스가 여러개의 스레드를 가진다면 -> Multi Thread
+커널 스레드의 경우 운영체제에의해 스레드를 운용
+사용자 스레드의 경우 사용자가 만든 라이브러리를 사용하여 스레드를 운용.
+스레드를 사용함으로써 하드웨어, 운영체제의 성능과 응용 프로그램의 처리율을 향상시킬 수 있음.
+
+Banker's Algorithm -> 교착상태 회피
+
+Ip주소를 MAC주소(LANCARD주소)로 변환하는 프로토콜 : ARP(Address Resoultion Protocol)
+
+HRN(Highest Response-ratio Next) : 우선순위를 계산하여 그 수치가 가장 높은것으로부터 낮은순으로 우선순위 부여.서비스시간+대기시간/서비스시간 이런식임.
+
+교착상태 발생의 필요충분조건
+Mutual Exclusion(상호배제), Hold and Wait(점유와 대기), Circular wait(환형 대기), Non-preemptive(비선점)
+
+IPv6 : 16*8의 주소공간, 인증및 보안 기능 포함, 패킷 크기가 40byte고정, IPv6 확장 헤더를 통해 네트워크 기능 확장이 용이.
+
+프로세스 상태의 종류
+Ready, Running, Exit, Block, Suspended
+
+IPv6의 주소체계
+Unicast, Anycast, Multicast
+Uni = one
+Unicast: 1:1,
+Multicast : 1:N
+
+JAVA 접근제한자
+public, protected, private
+
+스크립트 언어
+PHP, Basic, Python...
+
+컴파일 언어
+Cobol, C, JAVA...
+
