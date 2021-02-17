@@ -1,0 +1,29 @@
+전송계층
+종단간, 오류검출과 복구, 흐름제어, TCP, UDP
+
+네트워크계층
+IP
+
+TCP프로토콜
+신뢰성, 연결지향형, 헤더크기 ipv4 : 20~60 ipv6 : 40byte
+ipv4 주소크기 : 8*4 ipv6 주소크기 : 16*8bit
+
+ARP(Address Resolution Protocol) : 호스트의 Ip주소를 호스트와 연결된 네트워크 접속 장치의 물리적인 주소(Lan Card 주소)로 번역해주는 프로토콜
+RARP(Reversed Addres Resolution Protocol) : ARP의 반대
+
+IPv6의 주소체계
+Unicast, Multicast, Anycast
+
+Digital twin : 물리적인 사물과 컴퓨터에 동일하게 표현되는 가상 모델로 물리적인 자산 대신 소프트웨어로 가상화.
+mesh Network : 대규모 디바이스의 네트워크 생성에 최적화
+VPN : 공용 네트워크를 사설 네트워크처럼 사용할 수 있도록 제공하는 인증 및 암호화 기법
+mashup : 웹에서 제공하는 정보 및 서비스를 이용하여 새로운 소프트웨어나 서비스, 데이터베이스 등을 만드는 기술.
+포스퀘어 : 위치기반 SNS
+멤리스터(Memristor) Memory와 Register의 합성어. 전기가 없는 상태에서도 전자상태를 저장할 수 있음
+PICONET : 여러 개의 독립된 통신 장치가 UWB기술 또는 블루투스 기술을 사용하여 통신망을 형성하는 무선 네트워크를 구축하는 기술.
+클라우드 컴퓨팅 : 사용자는 컴퓨터, 휴대폰과 같은 기기를 이용해 언제 어디서나 연결하여 서비스를 사용하는 컴퓨팅 스타일.
+분류
+SaaS(Software as a Service),PaaS(Platform as a Service), IaaS(Infrastructure as a Service)
+
+SDDC(Software Defined Data Center) : 모든 인프라가 가상화되는 데이터센터. 가상화가 핵심이며, 데이터 센터 내 모든자원을 가상화하여 서비스함.
+
