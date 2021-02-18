@@ -1,0 +1,72 @@
+2, 6, 
+
+요구사항 분석시에 필요한 기술으로 거리가 먼것
+내가 고른 답 : 청취와 인터뷰 질문 기술
+이유 : 요구사항 도출에 관련된것이라고 해서 찍고 넘어감
+정답 : 설계 및 코딩 기술
+이유 : 설계 및 코딩은 요구사항 분석이 끝난후에 하는것임.
+
+Factory Method : 하나의 메소드가 여러종류의 객체를 생성.
+Abstract Factory : 같은 종류의 여러 개의 객체를 생성할 수 있는 클래스를 생성하는 것.
+
+럼바우 객체 지향 분석
+Object, Dynamic, Functional Model
+
+디자인 패턴
+생성(Creational)
+Abstarct Factory, Factory Method, Builder, Prototype
+구조(Structural)
+Adapter, Bridge, Decorator
+행위(Behavioral)
+Command, Observer, State, Iterator
+
+UML다이어그램 동적구조=행위
+유상활동상타시
+
+하나이상의 유사한 객체들을 묶어서 하나의 공통된 특성을 표현 : 클래스
+
+ISP(Interface Segregation P)
+한개의 일반적인 인터페이스 보다 구체적이고 안전한 여러 개의 인터페이스가 좋음.
+DIP(Dependency Inversion P)
+추상화 클래스에 의존하게 함.
+SRP(Single Responsibility P)
+한 책임을 맡아야함(기능)
+LSP(Liskov Substitution P)
+서브타입은 어디에서나 자신의 상위타입으로 교체할 수 있어야 함.
+OCP(Open-Closed P)
+개체는 확장에느 열고, 수정시에는 닫혀있게 해야 함.
+
+MCCabe Cyclomatic : E(edge)-V(vertx)+2
+
+ISO/IEC 12119
+패키지 소프트웨어의 일반적인 제품 품질 요구사항 및 테스트를 위한 국제 표준 규격
+
+블랙박스 테스트 : 결과값
+화이트박스 테스트 : 안을 보면서 한줄한주 실행하면서.
+
+파티션 유형
+범위분할(Range P)
+해시분할(Hash P)
+조합분할(Composite P) : 범위후에해시
+
+AJAX : JavaScript를 사용한 비동기 통신기술로 클라이언트와 서버 간에 XML 데이터를 주고 받는 기술
+
+차수 : 자식노드의 수
+트리의 차수 : 최대 자식노드의 수
+
+뷰의 장점
+데이터보안 용이, 사용자 데이터 관리 용이, 논리적 독립성 제공
+뷰는 논리 테이블이므로 테이블의 구조가 변경되어도 뷰를 사용하는 응용 프로그램은 변경하지 않아도 된다.
+
+log를 필요로 하는 회복 기법 : 즉각 갱신 기법
+
+해시
+대수적 코딩 방법 : 키 값을 이루고 있는 각 자리의 비트 수를 한 다항식..
+폴딩 : XOR 하거나 더하거나 
+
+모듈간의 결합도를 약하게 하면 모듈 독립성이 향상됨.(당연함)
+
+HRN(Highest-Ratio next) : 대기시간+서비스시간/서비스시간 높은순대로.
+
+IPv4 헤더길이 : 20~60 IPv6 헤더길이 : 40byte
+
