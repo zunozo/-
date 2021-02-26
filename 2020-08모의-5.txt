@@ -1,0 +1,10 @@
+2020-08모의-5
+
+소프트웨어 개발 표준 중 소프트웨어 품질 및 생산성 향상을 위해 소프트웨어 프로세스를 평가 및 개선하는 국제 표준 : SPICE
+
+CMM(Capability Maturity Model) : 소프트웨어 개발과 유지보수에 대한 프로세스 개선과 능력향상을 위한 프레임워크이며 실용화된 모델
+
+SPICE(Software Process Improvement and Capability dEtermination)모델 : 소프트웨어 품질및 생산성 향상을 위해 소프트웨어 프로세스를 평가 및 개선하는 국제 표준
+
+RSA : 큰숫자를 소인수분해하기 어렵다는 기반 하에 1978년 MIT에 의해 제안된 공개키 암호화 알고리즘
+
